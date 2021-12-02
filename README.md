@@ -10,5 +10,5 @@ This repository is a partial repository of that used for the backend of Freeboar
 Freeboard uses a serverless backend, running completely in Microsoft Azure. This has been done by using [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview).  
 Other resources used in the backend are:
 - [Azure Active Directory B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/overview): Used for authentication for Freeboard's users. The Business-To-Customer variant of Azure Active Directory allows for sign up/sign in, using local accounts and social IDs, rather then a Microsoft account.
-- [Storage Account](): Used for storing data (e.g. [job postings](BackendExample/Models/Post.cs) and [comments](BackendExample/Models/Comment.cs)) used in the webapp.
-- [Key Vault](): Used as a replacement for the Access Tokens provided by Azure Active Directory.
+- [Storage Account](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview): Used for storing data (e.g. [job postings](BackendExample/Models/Post.cs) and [comments](BackendExample/Models/Comment.cs)) used in the webapp.
+- [Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/general/overview): Used as a replacement for the Access Tokens provided by Azure Active Directory.
